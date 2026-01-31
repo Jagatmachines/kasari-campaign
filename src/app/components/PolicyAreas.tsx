@@ -72,7 +72,7 @@ export function PolicyAreas() {
             Key Policy Areas
           </h2>
           <p className="text-lg text-gray-600">
-            Explore curated questions across critical issues affecting Nepal's future
+            Explore curated questions across critical issues affecting Nepal&apos;s future
           </p>
         </div>
         

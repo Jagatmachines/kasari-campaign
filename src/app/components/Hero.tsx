@@ -52,6 +52,7 @@ export function Hero() {
           {/* Right Logo */}
           <div className="relative flex items-center justify-center">
             <div className="relative">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/kasari-logo.png"
                 alt="कसरी? From Promise to Policy"

@@ -12,7 +12,7 @@ export function CallToAction() {
           </h2>
           
           <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-            Don't let another election pass without asking the questions that matter. 
+            Don&apos;t let another election pass without asking the questions that matter. 
             Start holding candidates accountable today.
           </p>
           

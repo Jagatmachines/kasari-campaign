@@ -66,7 +66,7 @@ export function Community() {
             <div key={index} className="bg-white rounded-xl p-6 shadow-md">
               <Quote className="size-8 text-[#003DA5] mb-4" />
               <p className="text-gray-700 mb-4 italic">
-                "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
               </p>
               <div className="border-t border-gray-200 pt-4">
                 <div className="font-bold text-gray-900">{testimonial.name}</div>

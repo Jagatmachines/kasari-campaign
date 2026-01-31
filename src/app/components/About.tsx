@@ -9,7 +9,7 @@ export function About() {
             Why Kasari?
           </h2>
           <p className="text-lg text-gray-600">
-            In Nepali, "कसरी" (Kasari) means "How?" — the most powerful question 
+            In Nepali, &quot;कसरी&quot; (Kasari) means &quot;How?&quot; — the most powerful question 
             a voter can ask. We help you transform political promises into actionable policy questions.
           </p>
         </div>
@@ -34,7 +34,7 @@ export function About() {
             </div>
             <h3 className="text-xl font-bold text-gray-900">Non-Partisan Platform</h3>
             <p className="text-gray-600">
-              We don't support any political party. Our mission is to empower 
+              We don&apos;t support any political party. Our mission is to empower 
               informed civic participation, regardless of political affiliation.
             </p>
           </div>
