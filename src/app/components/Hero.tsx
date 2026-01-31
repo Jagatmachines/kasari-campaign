@@ -1,5 +1,4 @@
 import { ArrowRight, MessageCircleQuestion } from 'lucide-react';
-import logoImage from '../../assets/1b0de7c26b4889633936fc4eb91c31bb41ca2464.png';
 
 export function Hero() {
   return (
@@ -54,8 +53,8 @@ export function Hero() {
           <div className="relative flex items-center justify-center">
             <div className="relative">
               <img
-                src={logoImage}
-                alt="Kasari: From Promise to Policy"
+                src="/images/kasari-logo.png"
+                alt="कसरी? From Promise to Policy"
                 className="w-full max-w-md h-auto"
               />
               {/* Decorative elements */}
