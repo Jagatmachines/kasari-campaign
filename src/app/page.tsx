@@ -13,7 +13,7 @@ export default function Home() {
       <About />
       <HowItWorks />
       <PolicyAreas />
-      <Community />
+      {/* <Community /> */}
       <CallToAction />
       <Footer />
     </main>
