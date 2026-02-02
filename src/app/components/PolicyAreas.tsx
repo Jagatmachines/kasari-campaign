@@ -105,10 +105,10 @@ export function PolicyAreas() {
                   ))}
                 </ul>
                 
-                <button className={`mt-4 text-sm font-medium ${area.color === "blue" ? "text-[#003DA5]" : "text-[#DC143C]"} flex items-center gap-1 group-hover:gap-2 transition-all`}>
+                {/* <button className={`mt-4 text-sm font-medium ${area.color === "blue" ? "text-[#003DA5]" : "text-[#DC143C]"} flex items-center gap-1 group-hover:gap-2 transition-all`}>
                   View All Questions
                   <span>→</span>
-                </button>
+                </button> */}
               </div>
             );
           })}

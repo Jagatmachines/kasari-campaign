@@ -25,7 +25,7 @@ export function Hero() {
               Hold candidates accountable before you cast your vote.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            {/* <div className="flex flex-col sm:flex-row gap-4">
               <button className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#003DA5] text-white rounded-lg hover:bg-[#002970] transition-colors font-medium">
                 Start Asking Questions
                 <ArrowRight className="size-5" />
@@ -34,7 +34,7 @@ export function Hero() {
               <button className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-gray-300 text-gray-700 rounded-lg hover:border-gray-400 transition-colors font-medium">
                 Learn More
               </button>
-            </div>
+            </div> */}
             
             <div className="flex items-center gap-8 pt-4">
               <div>
@@ -43,7 +43,7 @@ export function Hero() {
               </div>
               <div className="h-12 w-px bg-gray-300"></div>
               <div>
-                <div className="text-2xl font-bold text-gray-900">75 Districts</div>
+                <div className="text-2xl font-bold text-gray-900">77 Districts</div>
                 <div className="text-sm text-gray-600">Across Nepal</div>
               </div>
             </div>
