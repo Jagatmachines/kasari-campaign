@@ -16,7 +16,7 @@ export function Hero() {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              कसरी:
+              कसरी?:
               <br />
               <span className="text-[#003DA5]">From Promise</span>
               <br />
