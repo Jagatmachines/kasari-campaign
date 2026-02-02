@@ -59,17 +59,12 @@ export function Hero() {
           <div className="relative flex items-center justify-center">
             <div className="relative">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-<<<<<<< HEAD
-                src="/images/website-banner1.jpg"
-              <Image
-                src={kasariLogoImg}
-=======
-                src="/images/logo-banner.jpg"
->>>>>>> a959a6c (banner update)
-                alt="कसरी? From Promise to Policy"
-                className="w-full max-w-md h-auto"
-              />
+                <img
+                  src="/images/logo-banner.jpg"
+                  alt="कसरी? From Promise to Policy"
+                  className="w-full max-w-md h-auto"
+                />
+
               {/* Decorative elements */}
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-[#DC143C] rounded-full opacity-20 blur-2xl"></div>
               <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-[#003DA5] rounded-full opacity-20 blur-2xl"></div>
