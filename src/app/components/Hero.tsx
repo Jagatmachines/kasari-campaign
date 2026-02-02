@@ -1,4 +1,7 @@
 import { ArrowRight, MessageCircleQuestion } from 'lucide-react';
+import Image from 'next/image';
+
+import kasariLogoImg from '../../../public/images/kasari-logo.png';
 
 export function Hero() {
   return (
@@ -13,7 +16,7 @@ export function Hero() {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              कसरी:
+              कसरी?:
               <br />
               <span className="text-[#003DA5]">From Promise</span>
               <br />
@@ -58,6 +61,8 @@ export function Hero() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/website-banner1.jpg"
+              <Image
+                src={kasariLogoImg}
                 alt="कसरी? From Promise to Policy"
                 className="w-full max-w-md h-auto"
               />
