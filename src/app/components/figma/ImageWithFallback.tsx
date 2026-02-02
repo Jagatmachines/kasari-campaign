@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import React, { useState } from 'react'
 
 const ERROR_IMG_SRC =
@@ -12,7 +13,7 @@ export function ImageWithFallback(props: React.ImgHTMLAttributes<HTMLImageElemen
     setDidError(true)
   }
 
-  const { src, alt, style, className, ...rest } = props
+  const { src, alt, style, className, width, height, ...rest } = props
 
   return didError ? (
     <div
@@ -21,13 +22,13 @@ export function ImageWithFallback(props: React.ImgHTMLAttributes<HTMLImageElemen
     >
       <div className="flex items-center justify-center w-full h-full">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={ERROR_IMG_SRC} alt="Error loading image" {...rest} data-original-url={src} />
+        <Image src={ERROR_IMG_SRC} alt="Error loading image" width={typeof width === 'string' ? parseInt(width) : width} height={typeof height === 'string' ? parseInt(height) : height} {...rest} data-original-url={src} />
       </div>
     </div>
   ) : (
     <>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={src} alt={alt} className={className} style={style} {...rest} onError={handleError} />
+      <Image src={src as string} alt={alt as string} className={className} style={style} width={typeof width === 'string' ? parseInt(width) : width} height={typeof height === 'string' ? parseInt(height) : height} {...rest} onError={handleError} />
     </>
   )
 }

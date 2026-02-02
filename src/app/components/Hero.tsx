@@ -1,4 +1,5 @@
 import { ArrowRight, MessageCircleQuestion } from 'lucide-react';
+import Image from 'next/image';
 
 export function Hero() {
   return (
@@ -53,7 +54,7 @@ export function Hero() {
           <div className="relative flex items-center justify-center">
             <div className="relative">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src="/images/kasari-logo.png"
                 alt="कसरी? From Promise to Policy"
                 className="w-full max-w-md h-auto"
