@@ -100,8 +100,14 @@ jobs:
     - name: � Log deployment config
       run: |
         echo "Server directory: ${{ secrets.FTP_SERVER_DIR }}"
-        echo "Local directory: out/"
-    - name: �📂 Sync files
+        echo "Local directory: ./out/"
+    - name: Validate FTP secrets
+      run: |
+        if [ -z "${{ secrets.FTP_SERVER_DIR }}" ]; then
+          echo "Missing secret FTP_SERVER_DIR. Add it in Settings -> Secrets and variables -> Actions."
+          exit 1
+        fi
+    - name: �� Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.6
       with:
         server: ${{ secrets.FTP_SERVER }}
