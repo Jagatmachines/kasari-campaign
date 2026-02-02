@@ -102,6 +102,11 @@ jobs:
       with:
         name: github-pages
         path: ./out
+    - name: Extract artifact
+      run: |
+        cd out
+        tar -xf artifact.tar
+        cd ..
     - name: 📋 Log deployment config
       run: |
         echo "Server directory: ${{ secrets.FTP_SERVER_DIR }}"
