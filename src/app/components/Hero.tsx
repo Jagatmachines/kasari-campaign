@@ -41,20 +41,26 @@ export function Hero() {
             
             <div className="flex items-center gap-8 pt-4">
               <div>
+                <div className="text-2xl font-bold text-gray-900">#Kasari #FromPromiseToPolicy</div>
+            </div>
+              {/* <div>
                 <div className="text-2xl font-bold text-gray-900">100+</div>
                 <div className="text-sm text-gray-600">Questions Asked</div>
-              </div>
-              <div className="h-12 w-px bg-gray-300"></div>
-              <div>
+              </div> */}
+              {/* <div className="h-12 w-px bg-gray-300"></div> */}
+              {/* <div>
                 <div className="text-2xl font-bold text-gray-900">77 Districts</div>
                 <div className="text-sm text-gray-600">Across Nepal</div>
-              </div>
+              </div> */}
             </div>
           </div>
           
           {/* Right Logo */}
           <div className="relative flex items-center justify-center">
             <div className="relative">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/images/website-banner1.jpg"
               <Image
                 src={kasariLogoImg}
                 alt="कसरी? From Promise to Policy"

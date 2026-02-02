@@ -17,14 +17,20 @@ export function Footer() {
               A non-partisan civic awareness initiative empowering Nepali voters 
               to ask the right questions and hold candidates accountable.
             </p>
-            <div className="flex items-center gap-2 text-sm text-gray-400">
+            <div className="mt-4 flex items-center gap-2 text-sm">
+              <Mail className="size-4" />
+              <a href="mailto:kasari.frompromisetopolicy@protonmail.com" className="hover:text-white transition-colors">
+                kasari.frompromisetopolicy@protonmail.com
+              </a>
+            </div>
+            {/* <div className="flex items-center gap-2 text-sm text-gray-400">
               <MapPin className="size-4" />
               <span>Serving all 77 districts of Nepal</span>
-            </div>
+            </div> */}
           </div>
           
           {/* Quick Links */}
-          <div>
+          {/* <div>
             <h4 className="font-bold text-white mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li>
@@ -43,10 +49,10 @@ export function Footer() {
                 <a href="#" className="hover:text-white transition-colors">FAQ</a>
               </li>
             </ul>
-          </div>
+          </div> */}
           
           {/* Get Involved */}
-          <div>
+          {/* <div>
             <h4 className="font-bold text-white mb-4">Get Involved</h4>
             <ul className="space-y-2 text-sm">
               <li>
@@ -62,13 +68,9 @@ export function Footer() {
                 <a href="#" className="hover:text-white transition-colors">Contact</a>
               </li>
             </ul>
-            <div className="mt-4 flex items-center gap-2 text-sm">
-              <Mail className="size-4" />
-              <a href="mailto:hello@kasari.org.np" className="hover:text-white transition-colors">
-                hello@kasari.org.np
-              </a>
-            </div>
-          </div>
+
+          </div> */}
+          
         </div>
         
         {/* Bottom Bar */}
@@ -76,11 +78,11 @@ export function Footer() {
           <p className="text-sm text-gray-500">
             © 2026 Kasari Initiative. All rights reserved. Non-partisan • Non-profit
           </p>
-          <div className="flex gap-6 text-sm">
+          {/* <div className="flex gap-6 text-sm">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Use</a>
             <a href="#" className="hover:text-white transition-colors">Disclaimer</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
