@@ -6,7 +6,7 @@ const nextConfig = {
   },
   reactStrictMode: true,
   basePath: '/kasari-campaign',
-  assetPrefix: '/kasari-campaign/',
+  assetPrefix: '/kasari-campaign',
   trailingSlash: true,
 };
 
