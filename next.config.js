@@ -4,10 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  reactStrictMode: true,
-  basePath: '/kasari-campaign',
-  assetPrefix: '/kasari-campaign',
-  trailingSlash: true,
+  reactStrictMode: true
 };
 
 export default nextConfig;
