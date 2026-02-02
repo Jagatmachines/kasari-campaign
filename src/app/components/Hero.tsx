@@ -1,6 +1,8 @@
 import { ArrowRight, MessageCircleQuestion } from 'lucide-react';
 import Image from 'next/image';
 
+import kasariLogoImg from '../../../public/images/kasari-logo.png';
+
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-white via-blue-50/30 to-red-50/30 pt-20 pb-16 md:pt-32 md:pb-24">
@@ -54,7 +56,7 @@ export function Hero() {
           <div className="relative flex items-center justify-center">
             <div className="relative">
               <Image
-                src="images/kasari-logo.png"
+                src={kasariLogoImg}
                 alt="कसरी? From Promise to Policy"
                 className="w-full max-w-md h-auto"
               />
